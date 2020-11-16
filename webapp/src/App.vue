@@ -1,14 +1,22 @@
 <template>
   <div id="app">
-    <p>{{ greeting }}</p>
-    <p>{{ flaskGreeting }}</p>
+    <BaseComponent />
+    <div>
+      <p>{{ greeting }}</p>
+      <p>{{ flaskGreeting }}</p>
+    </div>
   </div>
 </template>
 
 <script>
 
+/* eslint-disable */
+import BaseComponent from './components/BaseComponent.vue'
 export default {
   name: 'App',
+  components: {
+		BaseComponent
+	},
   data: function(){
         return {
             greeting: 'Hello from Vue!',

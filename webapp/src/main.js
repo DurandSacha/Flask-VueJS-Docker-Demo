@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 
+/* eslint-disable */
 Vue.config.productionTip = false
 
 new Vue({
