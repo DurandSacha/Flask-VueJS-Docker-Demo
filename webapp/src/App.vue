@@ -1,35 +1,8 @@
 <template>
   <div id="app">
-    <BaseComponent />
-    <div>
-      <p>{{ greeting }}</p>
-      <p>{{ flaskGreeting }}</p>
-    </div>
+    <router-view />
   </div>
 </template>
-
-<script>
-
-/* eslint-disable */
-import BaseComponent from './components/BaseComponent.vue'
-export default {
-  name: 'App',
-  components: {
-		BaseComponent
-	},
-  data: function(){
-        return {
-            greeting: 'Hello from Vue!',
-            flaskGreeting: ''
-        }
-    },
-  created: async function(){
-        const gResponse = await fetch("http://localhost:5000/greeting");   /* API adress with port*/
-        const gObject = await gResponse.json();
-        this.flaskGreeting = gObject.greeting;
-    }
-}
-</script>
 
 <style lang="scss">
 #app {
@@ -38,6 +11,18 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+#nav {
+  padding: 30px;
+
+  a {
+    font-weight: bold;
+    color: #2c3e50;
+
+    &.router-link-exact-active {
+      color: #42b983;
+    }
+  }
 }
 </style>
