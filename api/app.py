@@ -5,6 +5,7 @@ app = Flask(__name__)
 app.config.from_object('config')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 CORS(app)
+#models.db.init_app(app)
 
 @app.route("/greeting")
 def greeting():
