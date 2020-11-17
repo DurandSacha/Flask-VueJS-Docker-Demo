@@ -19,7 +19,7 @@ run flask api server
 
 flask is used for API branching, while vue.js is useful for separate front-end.
 
-# How to use postres database ?
+# How to use postgres SQL database ?
 
 initialize database :
 
