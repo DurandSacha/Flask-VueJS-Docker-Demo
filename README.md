@@ -1,6 +1,6 @@
 ![licence](https://img.shields.io/github/license/DurandSacha/Flask-VueJS-Docker-Demo)
 ![issue](https://img.shields.io/github/issues/DurandSacha/Flask-VueJS-Docker-Demo)
-![commits-since](https://img.shields.io/github/commits-since/DurandSacha/Flask-VueJS-Docker-Demo)
+![dependencies](https://img.shields.io/github/dependencies-out%20of%20date-orange/DurandSacha/Flask-VueJS-Docker-Demo)
 ![contributors](https://img.shields.io/github/contributors/DurandSacha/Flask-VueJS-Docker-Demo)
 
 # how to use this template ? 
