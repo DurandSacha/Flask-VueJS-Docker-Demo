@@ -1,4 +1,5 @@
 https://img.shields.io/github/issues/DurandSacha/Flask-VueJS-Docker-Demo
+![issue](https://img.shields.io/github/issues/DurandSacha/Flask-VueJS-Docker-Demo)
 
 # how to use this template ? 
 
