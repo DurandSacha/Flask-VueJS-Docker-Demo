@@ -39,5 +39,9 @@ update modifications:
 
     python api/manage.py db upgrade
 
+Use docker compose
+
+    Docker-compose up
+
 
 
